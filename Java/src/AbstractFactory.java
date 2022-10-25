@@ -1,5 +1,4 @@
-public class AbstractFactory {
-  getFactory(String factories) {
+public class AbstractFactory getFactory(String factories) {
 		switch (factories) {
 		case "WhiteFactory":
 			return new WhiteFactory();
