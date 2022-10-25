@@ -6,7 +6,7 @@ public class AbstractFactory {
 		case "BlackFactory":
 			return new BlackFactory();
 		default:
-			throw new RuntimeException("ERROR");
+			throw new RuntimeException("ERROR :(");
 		}
 		}
 }
