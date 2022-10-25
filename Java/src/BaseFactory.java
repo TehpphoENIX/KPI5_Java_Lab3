@@ -1,5 +1,5 @@
 public interface BaseFactory {
-    String createCircle();
+    Circle createCircle();
 
-    String createTriangle();
+    Triangle createTriangle();
 }
