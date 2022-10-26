@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
         AbstractFactory abstractFactory = new AbstractFactory();
 
-        BaseFactory whiteFactory = abstractFactory.getFectory("WhiteFactory");
-        BaseFactory blackFactory = abstractFactory.getFectory("BlackFactory");
+        BaseFactory whiteFactory = abstractFactory.getFactory("WhiteFactory");
+        BaseFactory blackFactory = abstractFactory.getFactory("BlackFactory");
 
         Circle whiteCircle = whiteFactory.createCircle();
         System.out.println(whiteCircle.present());
